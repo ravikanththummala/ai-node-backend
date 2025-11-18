@@ -1,0 +1,20 @@
+{
+  "name": "ai-node-backend",
+  "version": "1.0.0",
+  "description": "AI Node backend proxy for OpenAI - sample project",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "node-fetch": "^3.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
